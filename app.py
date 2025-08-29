@@ -3,10 +3,10 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Replace these with your actual details
-FULL_NAME = "john_doe"
-DOB = "17091999"  # ddmmyyyy
-EMAIL = "john@xyz.com"
-ROLL_NUMBER = "ABCD123"
+FULL_NAME = "shivam_singh"
+DOB = "10022003"  # ddmmyyyy
+EMAIL = "sksinghmunger2002@gmail.com"
+ROLL_NUMBER = "22BPS1132"
 
 def alternating_caps_reverse(s: str) -> str:
     s = s[::-1]  # reverse string
